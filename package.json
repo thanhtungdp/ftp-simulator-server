@@ -1,0 +1,14 @@
+{
+  "name": "read-ftp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts":{
+    "start:ftp": "node ftp.js"
+  },
+  "dependencies": {
+    "basic-ftp": "^4.6.6",
+    "ftp-srv": "^4.5.0",
+    "winston": "^3.3.3"
+  }
+}
